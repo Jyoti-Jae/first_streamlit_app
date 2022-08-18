@@ -41,7 +41,7 @@ except URLError as e:
   
   
   
-  streamlit.write('The user entered ', fruit_choice)
+streamlit.write('The user entered ', fruit_choice)
 
 # New section to display fruityvice api response
 # write your own comment -what does the next line do? 
